@@ -1,0 +1,51 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "react-my-communities-client-side-solution",
+    "id": "f82dc7c3-f24a-4147-8a53-5e63af7ec530",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.15.2"
+    },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Group.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      }
+    ],
+    "metadata": {
+      "shortDescription": {
+        "default": "react-my-communities description"
+      },
+      "longDescription": {
+        "default": "react-my-communities description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "react-my-communities Feature",
+        "description": "The feature that activates elements of the react-my-communities solution.",
+        "id": "f5e60b70-8831-4880-b54a-68227d84302c",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/react-my-communities.sppkg"
+  }
+}
